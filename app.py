@@ -770,7 +770,7 @@ def api_status():
         "token_files": status
     })
 
-@app.route('/sasuc', methods=['GET'])
+@app.route('/uc-like', methods=['GET'])
 def handle_like():
     uid = request.args.get("uid")
     server_name = request.args.get("server_name", "").upper()
